@@ -3,5 +3,5 @@
 [![DockerHub stars](https://img.shields.io/docker/stars/cmr1/ngrok.svg?style=flat-square)](https://hub.docker.com/r/cmr1/ngrok)
 
 # docker-ngrok
-Dockerized ngrok
+Dockerized ngrok-fronted MTProxy
 

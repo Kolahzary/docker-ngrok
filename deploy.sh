@@ -2,7 +2,7 @@
 
 set -e
 
-IMAGE=cmr1/ngrok
+IMAGE=kolahzary/ngrok
 BRANCH_TARGETS=()
 
 should_deploy_branch() {

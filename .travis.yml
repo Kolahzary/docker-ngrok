@@ -3,7 +3,9 @@ language: ruby
 services:
 - docker
 before_install:
-- echo $DOCKER_HUB_USERNAME
+- sed -i "s/_MTPROXY_SECRET_/$MTPROXY_SECRET/g" docker-compose.yml
+- sed -i "s/_MTPROXY_TAG_/$MTPROXY_TAG/g" docker-compose.yml
+- sed -i "s/_NGROK_AUTH_/$NGROK_AUTH/g" docker-compose.yml
 - docker-compose build
 - docker-compose up -d
 - docker-compose ps

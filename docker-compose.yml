@@ -8,8 +8,8 @@ services:
     environment:
        - WORKERS=1
        - CONNECTIONS=60000
-       - SECRET=22409...0000
-       - TAG=7ad8d...c7868
+       #- SECRET=22409...0000
+       #- TAG=7ad8d...c7868
   ngrok:
     build: .
     environment:

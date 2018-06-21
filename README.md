@@ -1,6 +1,4 @@
-[![Travis Build Status](https://img.shields.io/travis/cmr1/docker-ngrok.svg?style=flat-square)](https://travis-ci.org/cmr1/docker-ngrok)
-[![DockerHub pulls](https://img.shields.io/docker/pulls/cmr1/ngrok.svg?style=flat-square)](https://hub.docker.com/r/cmr1/ngrok)
-[![DockerHub stars](https://img.shields.io/docker/stars/cmr1/ngrok.svg?style=flat-square)](https://hub.docker.com/r/cmr1/ngrok)
+[![Build Status](https://travis-ci.org/Kolahzary/docker-ngrok-mtproxy.svg?branch=master)](https://travis-ci.org/Kolahzary/docker-ngrok-mtproxy)
 
 # docker-ngrok
 Dockerized ngrok-fronted MTProxy

@@ -12,11 +12,11 @@ ARGS=$@
 # NGROK_PORT - Port to expose (defaults to 80 for HTTP protocol).
 
 if [ -z $NGROK_PROTOCOL ]; then
-  NGROK_PROTOCOL=http
+  NGROK_PROTOCOL=tcp
 fi
 
 if [ -z $NGROK_PORT ]; then
-  NGROK_PORT=80
+  NGROK_PORT=443
 fi
 
 if [ -z $NGROK_TARGET ]; then

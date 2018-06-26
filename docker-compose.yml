@@ -11,7 +11,8 @@ services:
        - SECRET=_MTPROXY_SECRET_
        - TAG=_MTPROXY_TAG_
   ngrok:
-    build: .
+    #build: .
+    image: kolahzary/ngrok:latest # NGROK Tunnel ;)
     environment:
       - NGROK_TARGET=mtproxy
       - NGROK_PORT=443
